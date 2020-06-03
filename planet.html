@@ -6,7 +6,7 @@ var fav=[];
 
 document.getElementById("demo").innerHTML = fav;
 function addMercury() {
-var plant=document.getElementById("planet1").name;
+var plant=document.getElementById("mercury").name;
 var n = fav.includes(plant);
 if(n==false)
 fav.push(plant);
@@ -14,7 +14,7 @@ fav.push(plant);
 }
 
 function addVenus() {
-var plant=document.getElementById("planet2").name;
+var plant=document.getElementById("venus").name;
 var n = fav.includes(plant);
 if(n==false)
 fav.push(plant);
@@ -22,7 +22,7 @@ fav.push(plant);
 }
 
 function addEarth() {
-var plant=document.getElementById("planet3").name;
+var plant=document.getElementById("earth").name;
 var n = fav.includes(plant);
 if(n==false)
 fav.push(plant);
@@ -30,7 +30,7 @@ fav.push(plant);
 }
 
 function addMars() {
-var plant=document.getElementById("planet4").name;
+var plant=document.getElementById("mars").name;
 var n = fav.includes(plant);
 if(n==false)
 fav.push(plant);
@@ -38,7 +38,7 @@ fav.push(plant);
 }
 
 function addJupiter() {
-var plant=document.getElementById("planet5").name;
+var plant=document.getElementById("jupiter").name;
 var n = fav.includes(plant);
 if(n==false)
 fav.push(plant);
@@ -46,23 +46,47 @@ fav.push(plant);
 }
 
 function addSaturn() {
-var plant=document.getElementById("planet6").name;
+var plant=document.getElementById("saturn").name;
 var n = fav.includes(plant);
 if(n==false)
 fav.push(plant);
 
 }
 
-function addUranus() {
-var plant=document.getElementById("planet7").name;
+function addPluto() {
+var plant=document.getElementById("pluto").name;
 var n = fav.includes(plant);
 if(n==false)
 fav.push(plant);
 
 }
 
-function addNeptune() {
-var plant=document.getElementById("planet8").name;
+function addCeres() {
+var plant=document.getElementById("ceres").name;
+var n = fav.includes(plant);
+if(n==false)
+fav.push(plant);
+
+}
+
+function addHaumea() {
+var plant=document.getElementById("haumea").name;
+var n = fav.includes(plant);
+if(n==false)
+fav.push(plant);
+
+}
+
+function addMakemake() {
+var plant=document.getElementById("makemake").name;
+var n = fav.includes(plant);
+if(n==false)
+fav.push(plant);
+
+}
+
+function addEris() {
+var plant=document.getElementById("eris").name;
 var n = fav.includes(plant);
 if(n==false)
 fav.push(plant);
@@ -85,28 +109,37 @@ w.document.write(text);
 </head>
 <body>
 <div>
-<li>Mercury <button type="button" id="planet1" name="Mercury" onclick="addMercury()">Add to favourite</button>
+<li>Mercury <button type="button" id="mercury" name="Mercury" onclick="addMercury()">Add to favourite</button>
 </li>
 <br>
-<li>Venus <button type="button" name="Venus" id="planet2" onclick="addVenus()">Add to favourite</button>		
+<li>Venus <button type="button" name="Venus" id="venus" onclick="addVenus()">Add to favourite</button>		
 </li>
 <br>
-<li>Earth <button type="button" name="Earth" id="planet3" onclick="addEarth()">Add to favourite</button>
+<li>Earth <button type="button" name="Earth" id="earth" onclick="addEarth()">Add to favourite</button>
 </li>
 <br>
-<li>Mars <button type="button" name="Mars" id="planet4" onclick="addMars()">Add to favourite</button>
+<li>Mars <button type="button" name="Mars" id="mars" onclick="addMars()">Add to favourite</button>
 </li>
 <br>
-<li>Jupitar <button type="button" name="Jupitar" id="planet5" onclick="addJupiter()">Add to favourite</button>
+<li>Ceres <button type="button" name="Ceres" id="ceres" onclick="addCeres()">Add to favourite</button>
 </li>
 <br>
-<li>Saturn <button type="button" name="Saturn" id="planet6" onclick="addSaturn()">Add to favourite</button>
+<li>Jupitar <button type="button" name="Jupiter" id="jupiter" onclick="addJupiter()">Add to favourite</button>
 </li>
 <br>
-<li>Uranus <button type="button" name="Uranus"  id="planet7" onclick="addUranus()">Add to favourite</button>
+<li>Saturn <button type="button" name="Saturn" id="saturn" onclick="addSaturn()">Add to favourite</button>
 </li>
 <br>
-<li>Neptune <button type="button" name="Neptune" id="planet8" onclick="addNeptune()">Add to favourite</button>
+<li>Pluto <button type="button" name="Pluto"  id="pluto" onclick="addPluto()">Add to favourite</button>
+</li>
+<br>
+<li>Haumea <button type="button" name="Haumea" id="haumea" onclick="addHaumea()">Add to favourite</button>
+</li>
+<br>
+<li>Makemake <button type="button" name="Makemake" id="makemake" onclick="addMakemake()">Add to favourite</button>
+</li>
+<br>
+<li>Eris <button type="button" name="Eris" id="eris" onclick="addEris()">Add to favourite</button>
 </li>
 </div>
 <br>
